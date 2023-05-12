@@ -124,6 +124,21 @@ p.petit {
   width: 50%;
 }
 
+/*Menu Burger*/
+.menu-burger {
+  display: none;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  margin: 6px auto;
+  transition: all 0.3s ease-in-out;
+}
+/*Fin Menu Burger*/
+
 .menu ul li {
   display: inline-block;
 }
@@ -433,7 +448,7 @@ input[type="text"] {
 }
 /* Responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   /* Global*/
 
   .center {
@@ -454,15 +469,18 @@ input[type="text"] {
 
   /* Header*/
 
-  .menu {
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
+  .catégories {
+    display: none;
+  }
+
+  .menu-burger {
+    display: block;
   }
 
   .banner {
     text-align: center;
     padding: 20px;
+    margin-top: 150px;
   }
 
   /* Présentation*/
