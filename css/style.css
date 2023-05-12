@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+/* FIN RESET */
+
+/* GLOBAL */
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.secpad {
+  padding: 100px 0px 30px 0px;
+}
+
+.secpad02 {
+  padding: 30px 0px;
+}
+
+.secpad03 {
+  padding: 100px 0px 0px 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 80px;
+  border: 1px solid #000;
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.btn:hover {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+.bannerpages {
+  margin: 100px 0px;
+}
+/* FIN GLOBAL */
+
+/* TYPO */
+
+h1 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+p.petit {
+  font-size: 14px;
+}
+/* FIN TYPO */
+
+/* HEADER */
+
+.mainhead {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu .logo-header {
+  width: 50%;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  padding: 15px;
+  display: block;
+  font-weight: 500;
+}
+
+.menu ul li a:hover {
+  padding: 15px;
+  display: block;
+  font-weight: 600;
+}
+
+/* FIN HEADER */
+
+/* BANNIERE */
+
+.banner {
+  height: 110vh;
+  background-image: url(../IMGS/Accueil/pexels-mathias-reding-11911830.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.banner h2,
+.contactimg h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.banner p,
+.contactimg p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.btn-banner {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* FIN BANNIERE */
+
+/* SECTION 01 : PRESENTATION */
+
+.dflex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentation {
+  width: 40%;
+  margin: 100px;
+}
+
+.presentation p {
+  color: #272727;
+  margin: 15px 0px;
+}
+
+.myimg {
+  width: 40%;
+}
+
+/* FIN SECTION 01 : PRESENTATION */
+
+/* SECTION 02 : Les Chambres */
+
+.chambres,
+.articles {
+  width: 27%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chambres img {
+  margin-bottom: 15px;
+}
+
+.chambres p {
+  margin-bottom: 20px;
+}
+
+.chambres .btn-chambres:hover {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+/* FIN SECTION 02 : Les Chambres */
+
+/* SECTION 03 : Le Restaurant */
+
+.flextitre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 100px 50px 100px;
+}
+
+.infos-resto,
+.infos-spa,
+.infos-chambre {
+  width: 40%;
+  margin: 100px;
+}
+
+.infos-resto p {
+  color: #272727;
+}
+
+.imgresto,
+.imgspa,
+.imgchambre {
+  width: 35%;
+}
+
+/* Fin SECTION 03 : Le Restaurant */
+
+/* BANDEAU COULEURS */
+
+.color {
+  background-color: #e8c547;
+  height: 400px;
+  margin-bottom: 500px;
+}
+
+.color03 {
+  background-color: #904c77;
+  height: 400px;
+  margin-bottom: 500px;
+}
+
+.color04 {
+  background-color: #8b8bae;
+  height: 400px;
+  margin-bottom: 500px;
+}
+
+.color02 {
+  background-color: #dcf9f5;
+}
+
+.color05 {
+  background-color: #8b8bae;
+}
+
+.color06 {
+  background-color: #e8c547;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 50px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dflex02,
+.dflex03 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+div ul li {
+  margin-bottom: 10px;
+}
+
+.réduc {
+  width: 25%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-reseaux {
+  width: 40%;
+}
+
+/* FIN FOOTER */
+
+/* PAGE CHAMBRES */
+
+.chambres02 {
+  width: 40%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chambres02 img {
+  margin-bottom: 15px;
+}
+
+.chambres02 p {
+  margin-bottom: 20px;
+}
+
+.chambres02 .btn-chambres:hover {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+/* PAGE RESTO */
+
+.articles {
+  box-shadow: none;
+}
+
+/* PAGE SPA */
+
+.dot {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+/* PAGE CONTACT */
+
+.flexcontact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactimg {
+  width: 55%;
+  height: 90vh;
+  background-image: url(../IMGS/Accueil/ralph-ravi-kayden-8Cu8-cLZro8-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contactimg h2,
+.contactimg p {
+  margin: 0px 100px;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+form {
+  margin: 0px 200px 0px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #272727;
+  margin-bottom: 30px;
+  border-radius: 80px;
+}
+
+input[type="text"] {
+  width: 48%;
+}
+
+.btn-contact {
+  background-color: #fff;
+  margin-top: 30px;
+}
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+  /* Global*/
+
+  .center {
+    padding: 0 20px;
+  }
+
+  .dflex,
+  .dflex03 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .articles,
+  .chambres02,
+  .chambres {
+    box-shadow: none;
+  }
+
+  /* Header*/
+
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .banner {
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Présentation*/
+
+  .presentation {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .myimg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  /* Chambres*/
+
+  .color,
+  .color03,
+  .color04 {
+    height: fit-content;
+    margin-bottom: 0px;
+  }
+
+  .chambres,
+  .chambres02,
+  .articles {
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+  }
+
+  /* Restaurant*/
+
+  .flextitre {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .imgresto,
+  .imgchambre {
+    width: 100%;
+  }
+
+  .textecenter {
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  /* Spa*/
+
+  .imgspa {
+    width: 80%;
+  }
+
+  /* Contact*/
+
+  .contactimg {
+    width: 100%;
+  }
+
+  .flexcontact {
+    justify-content: center;
+  }
+
+  form,
+  .contactimg h2,
+  .contactimg p {
+    margin: 0px 20px;
+  }
+
+  /* Footer*/
+  .dflex02 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pad {
+    margin: 20px;
+  }
+}
+
+/* FIN RESPONSIVE*/
